@@ -23,7 +23,7 @@ public protocol WindowDelegate {
 
 internal protocol NativeApplication {
 
-    func init(withDelegate delegate: ApplicationDelegate)
+    init(withDelegate delegate: ApplicationDelegate)
 
     func run()
 
